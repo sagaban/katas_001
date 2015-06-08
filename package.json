@@ -1,0 +1,10 @@
+{
+  "name": "String_calculator",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {
+    "karma": "~0.12.23",
+    "karma-jasmine": "~0.2.2",
+    "karma-phantomjs-launcher": "~0.1.4"
+  }
+}
