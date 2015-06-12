@@ -27,6 +27,11 @@
                 expect(calculator.add("1,2\n3")).toEqual(6);
                 expect(calculator.add("0\n2\n3")).toEqual(5);
             });
+
+            it('The string calculator should support different delimiters', function () {
+                expect(calculator.add("//;\n1;2")).toEqual(3);
+
+            });
         });
     });
 })();
