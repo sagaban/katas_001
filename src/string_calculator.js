@@ -1,1 +1,5 @@
-var hola = 2;
+var calculator = {
+    add: function(numbers){
+        return 0;
+    }
+}
